@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WarInUkraine
+namespace game
 {
     class Program
     {
@@ -41,12 +41,6 @@ namespace WarInUkraine
         private static void Main()
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write("                             War");
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("In");
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Ukraine");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Управление :");
             Console.WriteLine("     Игрок 1: Выстрел - пробел, передвижение - W A S D, поворот башни - I J K L, пауза вкл/выкл Tab, ИИ вкл/выкл - P, завершить игру - Esc");
